@@ -12,17 +12,30 @@ A powerful, lightweight collection of Python-based security tools for penetratio
 
 ### 1. 📡 Network Scanner (`network_scanner.py`)
 A fast, multi-threaded port scanner designed to identify open services and grab banners for service identification.
-- **Features**: 
-  - Multi-threaded scanning (ThreadPoolExecutor)
-  - Banner grabbing
-  - Customizable port ranges
 
 ### 2. 🌐 Web Fuzzer (`web_fuzzer.py`)
 A high-speed directory and file brute-forcer for web applications.
+
+### 3. ⌨️ Keylogger (`keylogger.py`)
+A stealthy keystroke logger that records all inputs to a local file.
 - **Features**: 
-  - Wordlist-based discovery
-  - Threaded execution for maximum performance
-  - Status code filtering
+  - Captures special keys
+  - Local logging (`key_log.txt`)
+  - Background-ready listener
+
+### 4. 🔍 Subdomain Scanner (`subdomain_scanner.py`)
+A multi-threaded tool to discover subdomains for a target domain.
+- **Features**: 
+  - Rapid DNS/HTTP discovery
+  - Customizable wordlists
+  - Efficient concurrency
+
+### 5. 🔑 Hash Cracker (`hash_cracker.py`)
+A dictionary-based cracker for MD5 and SHA1 hashes.
+- **Features**: 
+  - Supports MD5 & SHA1
+  - Fast dictionary attacks
+  - Easy-to-use interface
 
 ---
 
@@ -47,13 +60,26 @@ pip install -r requirements.txt
 ### Network Scanner
 ```bash
 python network_scanner.py
-# Input Target IP when prompted
 ```
 
 ### Web Fuzzer
 ```bash
 python web_fuzzer.py
-# Input Target URL and Wordlist Path when prompted
+```
+
+### Keylogger
+```bash
+python keylogger.py
+```
+
+### Subdomain Scanner
+```bash
+python subdomain_scanner.py
+```
+
+### Hash Cracker
+```bash
+python hash_cracker.py
 ```
 
 ---
