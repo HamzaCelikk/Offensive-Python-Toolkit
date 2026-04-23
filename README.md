@@ -8,40 +8,6 @@ A powerful, lightweight collection of Python-based security tools for penetratio
 
 ---
 
-## 🛠️ Included Tools
-
-### 🌟 Interactive Menu (`main.py`)
-An all-in-one, beautifully styled command-line interface to easily select and run any tool in the toolkit without typing manual commands.
-
-### 1. 📡 Network Scanner (`network_scanner.py`)
-A fast, multi-threaded port scanner designed to identify open services and grab banners for service identification.
-
-### 2. 🌐 Web Fuzzer (`web_fuzzer.py`)
-A high-speed directory and file brute-forcer for web applications.
-
-### 3. ⌨️ Keylogger (`keylogger.py`)
-A stealthy keystroke logger that records all inputs to a local file.
-- **Features**: 
-  - Captures special keys
-  - Local logging (`key_log.txt`)
-  - Background-ready listener
-
-### 4. 🔍 Subdomain Scanner (`subdomain_scanner.py`)
-A multi-threaded tool to discover subdomains for a target domain.
-- **Features**: 
-  - Rapid DNS/HTTP discovery
-  - Customizable wordlists
-  - Efficient concurrency
-
-### 5. 🔑 Hash Cracker (`hash_cracker.py`)
-A dictionary-based cracker for MD5 and SHA1 hashes.
-- **Features**: 
-  - Supports MD5 & SHA1
-  - Fast dictionary attacks
-  - Easy-to-use interface
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -58,40 +24,66 @@ pip install -r requirements.txt
 
 ---
 
-## 📖 Usage Examples
+## 🌟 The Offensive Toolkit Menu (Recommended)
 
-### 🌟 All-in-One Interactive Menu (Recommended)
-Run the main script to access a beautifully styled interactive menu where you can easily launch all tools:
+The easiest and most powerful way to use this toolkit is through the **Interactive Command-Line Menu**. It provides a beautifully styled, user-friendly interface to launch any tool without typing manual commands.
+
+**To launch the menu, simply run:**
 ```bash
 python main.py
 ```
 
-### Individual Tools Usage
+### 💻 Menu Preview
+```text
+   ____  __  __               _           
+  / __ \/ _|/ _|             (_)          
+ | |  | | |_| |_ ___ _ __  ___ ___   _____ 
+ | |  | |  _|  _/ _ \ '_ \/ __| \ \ / / _ \
+ | |__| | | | ||  __/ | | \__ \ |\ V /  __/
+  \____/|_| |_| \___|_| |_|___/_| \_/ \___|
 
-#### Network Scanner
-```bash
-python network_scanner.py
+        Python Offensive Toolkit        
+    Created for Educational Purposes    
+
+[1] Network Scanner      (network_scanner.py)
+[2] Web Directory Fuzzer (web_fuzzer.py)
+[3] Hash Cracker         (hash_cracker.py)
+[4] Keylogger            (keylogger.py)
+[5] Subdomain Scanner    (subdomain_scanner.py)
+[99] Exit
 ```
 
-### Web Fuzzer
-```bash
-python web_fuzzer.py
-```
+---
 
-### Keylogger
-```bash
-python keylogger.py
-```
+<details>
+<summary><b>🛠️ Click here to see details of individual tools & standalone usage</b></summary>
 
-### Subdomain Scanner
-```bash
-python subdomain_scanner.py
-```
+<br>
 
-### Hash Cracker
-```bash
-python hash_cracker.py
-```
+### 1. 📡 Network Scanner (`network_scanner.py`)
+A fast, multi-threaded port scanner designed to identify open services and grab banners for service identification.
+*Standalone usage: `python network_scanner.py`*
+
+### 2. 🌐 Web Fuzzer (`web_fuzzer.py`)
+A high-speed directory and file brute-forcer for web applications.
+*Standalone usage: `python web_fuzzer.py`*
+
+### 3. ⌨️ Keylogger (`keylogger.py`)
+A stealthy keystroke logger that records all inputs to a local file.
+- **Features**: Captures special keys, Local logging (`key_log.txt`), Background-ready listener
+*Standalone usage: `python keylogger.py`*
+
+### 4. 🔍 Subdomain Scanner (`subdomain_scanner.py`)
+A multi-threaded tool to discover subdomains for a target domain.
+- **Features**: Rapid DNS/HTTP discovery, Customizable wordlists, Efficient concurrency
+*Standalone usage: `python subdomain_scanner.py`*
+
+### 5. 🔑 Hash Cracker (`hash_cracker.py`)
+A dictionary-based cracker for MD5 and SHA1 hashes.
+- **Features**: Supports MD5 & SHA1, Fast dictionary attacks, Easy-to-use interface
+*Standalone usage: `python hash_cracker.py`*
+
+</details>
 
 ---
 
