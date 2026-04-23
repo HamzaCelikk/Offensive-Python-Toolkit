@@ -10,6 +10,9 @@ A powerful, lightweight collection of Python-based security tools for penetratio
 
 ## 🛠️ Included Tools
 
+### 🌟 Interactive Menu (`main.py`)
+An all-in-one, beautifully styled command-line interface to easily select and run any tool in the toolkit without typing manual commands.
+
 ### 1. 📡 Network Scanner (`network_scanner.py`)
 A fast, multi-threaded port scanner designed to identify open services and grab banners for service identification.
 
@@ -57,7 +60,15 @@ pip install -r requirements.txt
 
 ## 📖 Usage Examples
 
-### Network Scanner
+### 🌟 All-in-One Interactive Menu (Recommended)
+Run the main script to access a beautifully styled interactive menu where you can easily launch all tools:
+```bash
+python main.py
+```
+
+### Individual Tools Usage
+
+#### Network Scanner
 ```bash
 python network_scanner.py
 ```
